@@ -1,0 +1,283 @@
+.container {
+    margin-top: 80px;
+}
+
+
+
+.section-title {
+    color: #FFF;
+    text-align: right;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 60% */
+}
+
+.nav-tabs {
+    border-bottom: 0.5px solid #C7C7C7;
+}
+
+.nav-tabs .nav-item .nav-link {
+    border: none !important;
+}
+
+
+
+.nav-tabs .nav-item button {
+    font-family: Cairo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFF;
+
+}
+
+.nav-tabs .nav-item .nav-link.active {
+    background: linear-gradient(180deg, #9947D5 0%, #C6269B 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 2px solid #FFF !important;
+
+
+}
+
+
+.tab1-content .card {
+    background-color: transparent !important;
+    display: flex;
+    padding: 32px 24px;
+    flex-direction: column;
+    gap: 32px;
+    align-self: stretch;
+    border: none !important;
+    border-bottom: 1px solid #C4C4C4 !important;
+}
+
+
+
+.header-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.tab1-content .card .time {
+    color: #EBEAED;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    /* 19.6px */
+}
+
+
+.tab1-content .card-title {
+    color: #FFF;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 33.6px */
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+
+.tab1-content .card-text {
+    color: #E7E7E7;
+    text-align: right;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 159%;
+    /* 28.62px */
+}
+
+
+.skills-person {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    gap: 23px;
+}
+
+.skills-person div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    align-items: center;
+    gap: 82px;
+    border-radius: 12px;
+    border: 1px solid #C4C4C4;
+    color: #E7E7E7;
+
+}
+
+.rate p:nth-child(1) {
+    color: #FFF;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    /* 58.333% */
+    letter-spacing: 0.24px;
+}
+
+.rate p:nth-child(2) {
+    color: #FFF;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    /* 77.778% */
+    letter-spacing: 0.18px;
+}
+
+
+
+
+
+
+
+.tab3-content .time {
+    color: #EBEAED;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    /* 19.6px */
+}
+
+.tab3-content .card-title {
+    color: #FFF;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 33.6px */
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+
+.tab3-content .card-text {
+    color: #E7E7E7;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 159%;
+    /* 28.62px */
+}
+
+
+.tab3-content .card {
+    background-color: transparent !important;
+    border: none !important;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-bottom: 1px solid #C4C4C4 !important;
+}
+
+
+
+
+
+.skills-person p {
+    color: #E7E7E7;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    /* 77.778% */
+    letter-spacing: 0.18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tab1-content .user {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+.tab1-content .user-img img {
+    width: 64px;
+height: 64px;
+border-radius: 64px;
+object-fit: contain;
+border: 1px solid #C6269B;
+}
+
+
+
+.user-stars {
+    display: flex;
+    flex-direction: column;
+}
+.user-stars img {
+    width: 16px;
+height: 16px;
+
+}
+
+
+.user-stars p {
+    color: #F2F2F2;
+text-align: right;
+font-family: Cairo;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+letter-spacing: 0.2px;
+}

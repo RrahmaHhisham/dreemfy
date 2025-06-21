@@ -1,0 +1,94 @@
+
+.navbar-mobile {
+  background: #16131E !important;
+}
+.offcanvas-body {
+  color: #fff;
+}
+
+
+.offcanvas-body .nav-link.active, .navbar-nav .nav-link.show {
+    color: #fff !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.topnav .navbar-nav .nav-item a {
+    color: #FFF;
+font-family: Cairo;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 14px; /* 100% */
+letter-spacing: 0.14px;
+}
+.login-btns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.login-btns .login-btn {
+    display: flex;
+padding: 16px 24px;
+justify-content: center;
+align-items: center;
+border-radius: 100px;
+background: linear-gradient(280deg, #805AF5 0%, #C02BA3 100%);
+color: #FFF;
+text-decoration: none;
+}
+
+
+.login-btns .signup-btn {
+    display: flex;
+padding: 16px 24px;
+justify-content: center;
+align-items: center;
+border-radius: 100px;
+background: linear-gradient(90deg, #9947D5 0%, #C6269B 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Cairo;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+}
+
+
+
+
+
+.nav-link {
+
+  transition: color 0.3s ease;
+}
+
+
+
+
+
+.bottomnav .navbar-nav .nav-link.active-page{ 
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.bottomnav .navbar-nav .nav-link.inactive-page {
+  color: rgba(255, 255, 255, .8) !important;
+  font-weight: normal;
+}

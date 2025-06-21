@@ -1,0 +1,127 @@
+.works p {
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.works .card {
+    position: relative;
+    border-radius: 7px;
+    overflow: hidden;
+    height: 180px !important;
+    background-color: transparent;
+}
+
+.works .card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background: #343667;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+
+
+
+
+.works .card.active::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(90deg, #9947D5 0%, #C6269B 100%);
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.works .card p {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+/* works.css */
+/* .card.active {
+  background: linear-gradient(90deg, #9947D5, #C6269B);
+  color: #fff;
+  border: none;
+}
+
+.card.active .card-subtitle,
+.card.active .card-title {
+  color: #fff;
+} */
+
+
+
+
+
+
+
+
+.works .point {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent; 
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.works .point::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(90deg, #9947D5, #C6269B);
+  border-radius: 50%;
+  z-index: -1;
+  mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0); 
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  mask-composite: exclude; 
+  -webkit-mask-composite: destination-out;
+  padding: 2px; 
+}
+
+
+/* .works .point .card-title {
+    background: linear-gradient(90deg, #9947D5 0%, #C6269B 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+} */
+
+
+
+.works .point .step-number {
+  background: linear-gradient(90deg, #9947D5 0%, #C6269B 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

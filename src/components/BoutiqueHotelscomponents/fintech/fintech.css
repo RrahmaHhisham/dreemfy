@@ -1,0 +1,144 @@
+.fintech {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fintech>.card {
+    border-radius: 8px;
+    background: #21242D;
+}
+.fintech .card .card img {
+    border-radius: 8px; 
+        height: 100%;
+    
+}
+
+.fintech .card .card .card-title {
+    color: #EFEAEA;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.fintech .card .card .card-text {
+    color: #FFF;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26.6px;
+}
+
+.fintech .card .card .card-caption {
+    color: #C4C1C1;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26.6px;
+}
+
+
+
+.fintech .card .card .content {
+    position: relative;
+    border-radius: 7px;
+    overflow: hidden;
+    height: 180px !important;
+}
+
+.fintech .card .card .content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(90deg, #9947D5 0%, #C6269B 100%);
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fintech .point {
+    position: relative;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.fintech .point::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(90deg, #9947D5, #C6269B);
+    border-radius: 50%;
+    z-index: -1;
+    mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+    -webkit-mask-composite: destination-out;
+    padding: 2px;
+}
+
+
+
+.fintech .point .card-point- {
+    background: linear-gradient(90deg, #9947D5 0%, #C6269B 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.fintech button {
+    display: flex;
+    width: 220px;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: linear-gradient(280deg, #805AF5 0%, #C02BA3 100%);
+    color: #fff;
+}
+
+.fintech button:hover {
+color: #fff;
+}

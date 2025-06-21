@@ -1,0 +1,25 @@
+.contact-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.cards- {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin: 20px 0;
+}
+
+
+.cards- .card {
+    border-radius: 8px;
+background: var(--frame-bg, #21242D);
+    color: #fff;
+}

@@ -1,0 +1,118 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-about {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content-about .card {
+    background-color: transparent;
+}
+
+.content-about img {
+    width: 100%;
+}
+
+.about .card-body p {
+    color: #FFF !important;
+    text-align: right;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: -0.96px;
+}
+
+.about .card-body .card-img-overlay .arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 130px;
+    flex-shrink: 0;
+    border-radius: 1031.646px;
+    border: 12px solid #FAFAFA;
+    background: linear-gradient(143deg, #C6269B 5.2%, #9B46D3 91.07%, #9947D5 94.8%);
+    box-shadow: 0px 45.392px 76.342px -10.316px rgba(0, 0, 0, 0.44);
+}
+
+.about-right .card>.card-body>p.card-subtitle {
+    color: #ECEDEE;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%;
+}
+
+
+.about-right .card .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 383px;
+    height: 382px;
+}
+
+.about-right .card .card img {
+    width: 175px;
+    height: 175px;
+    flex-shrink: 0;
+}
+
+.about-right .card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-right .card .card-body .card {
+    background-image: url(../../../assets/image\ 60.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.about-right .card .card-body .card button {
+    display: flex;
+    padding: 10px 0;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: stretch;
+    border: none;
+    color: #fff;
+    background: linear-gradient(180deg, #BC2EA7 0%, #805AF5 100%);
+}
+
+
+
+@media (max-width: 770px) {
+    .content-about img {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+
+    .about .card-body .card-img-overlay .arrow {
+         width: 80px;
+    height: 80px;
+    }
+    .about .card-body .card-img-overlay .arrow img {
+         width: 25px !important;
+    height: 25px !important;
+    }
+
+
+    
+}

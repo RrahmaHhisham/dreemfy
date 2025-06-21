@@ -1,0 +1,59 @@
+.dreamfyfeatures {
+    height: 50vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dreamfyfeatures>.card {
+    height: 100%;
+}
+
+.dreamfyfeatures .card-img-overlay .card .img-card {
+    display: flex;
+    padding: 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 1000px;
+    border: 2px solid #805AF5;
+    background: #FFF;
+
+}
+
+.border-icon {
+    width: 88px;
+    height: 88px;
+    border-radius: 1000px;
+    background: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.dreamfyfeatures .card-img-overlay .card img {
+    width: 100%;
+}
+
+.dreamfyfeatures .card-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Cairo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+
+@media (max-width: 600px) {
+    .dreamfyfeatures {
+        height: 50vh;
+    }
+
+
+}

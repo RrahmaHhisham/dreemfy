@@ -1,0 +1,102 @@
+.commenask {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent !important;
+}
+
+.commenask>.card {
+    border-radius: 28px;
+    background: #181D2A;
+    color: #fff;
+    border: none;
+}
+
+.accordion-button::after {
+    display: none !important;
+}
+
+.commenask .accordion-item {
+    background-color: transparent !important;
+    border: none !important;
+    color: #fff;
+    border-bottom: 1px solid #EAECF0 !important;
+}
+
+.accordion-button {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    color: #fff !important;
+    text-align: start !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    color: #fff;
+}
+
+.active-card {
+    background-color: black;
+    color: white;
+}
+
+.active-card .btn-card button {
+    color: #fff;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+    border-color: transparent !important;
+}
+
+.accordion-body {
+    color: #fff !important;
+}
+
+.accordion-collapse {
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    transition: height 0.3s ease, opacity 0.3s ease;
+}
+
+.accordion-collapse.show {
+    height: auto;
+    opacity: 1;
+}
+
+
+
+.commenask .card-title {
+    color: #fff;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: -1.44px;
+}
+
+
+
+.commenask .card-text {
+    color: #D1D4D7;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%;
+}
+
+.commenask .card-header button {
+    display: flex;
+width: 231px;
+padding: 16px 24px;
+justify-content: center;
+align-items: center;
+border-radius: 100px;
+background: linear-gradient(280deg, #9947D5 0%, #C6269B 100%);
+color: #fff;
+}

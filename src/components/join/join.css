@@ -1,0 +1,81 @@
+.joinus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.joinus>.card {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+
+.joinus .card .card {
+    padding: 20px;
+    background-color: transparent !important;
+    border-radius: 24px !important;
+    border: 1px solid #9C9C9C !important;
+}
+
+
+.joinus .card-title {
+    color: var(--text, #FFF);
+    text-align: right;
+    font-family: Cairo;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.joinus .card-description {
+    color: #C4C4C4;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cards-join {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cards-join .card-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards-join .card-body p {
+    color: #C4C4C4;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.joinus .btn {
+    display: flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 100px;
+    background: linear-gradient(280deg, #805AF5 0%, #C02BA3 100%);
+    color: #fff;
+}
+.joinus .btn:hover {
+    color: #fff;
+}

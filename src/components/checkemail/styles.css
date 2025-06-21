@@ -1,0 +1,33 @@
+.checkemail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+
+.checkemail .card-title {
+    color: #FFF;
+text-align: center;
+font-family: Cairo;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+letter-spacing: 0.24px;
+margin: 20px 0;
+}
+
+
+.checkemail .card-text {
+    color: #DFDFDF;
+text-align: center;
+font-family: Cairo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+letter-spacing: 0.16px;
+margin: 20px 0;
+}

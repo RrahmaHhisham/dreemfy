@@ -1,0 +1,91 @@
+.herofreelance {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.herofreelance>.card {
+    height: 50vh;
+}
+
+.herofreelance .card img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.herofreelance .card-img-overlay {
+    padding: 30px !important;
+}
+
+.herofreelance .banner p {
+    color: #FFF;
+font-family: Cairo;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 67.2px */
+}
+
+.herofreelance nav {
+    padding: 20px 0;
+    border-bottom: 1px solid #A3A1A9 !important;
+}
+
+.herofreelance .title-hero {
+    color: #FFF;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 0.48px;
+}
+
+/* الكارد اللي تحته نصه على الصورة */
+.info-data {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: -50px;
+    /* تقدرِي تتحكمي حسب التصميم */
+    z-index: 2;
+}
+
+.info-data .card {
+    /* width: 80%; */
+    /* margin: auto; */
+    border-radius: 6px;
+    background: var(--frame-bg, #21242D);
+    box-shadow: 0px 347px 97px 0px rgba(0, 0, 0, 0.00),
+        0px 222px 89px 0px rgba(0, 0, 0, 0.01),
+        0px 125px 75px 0px rgba(0, 0, 0, 0.05),
+        0px 55px 55px 0px rgba(0, 0, 0, 0.09),
+        0px 14px 31px 0px rgba(0, 0, 0, 0.10);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.info-data .card p {
+    color: #FFF;
+
+}
+
+.info-data .card a {
+    display: flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: linear-gradient(280deg, #805AF5 0%, #C02BA3 100%);
+    text-decoration: none;
+    color: #FFF;
+}

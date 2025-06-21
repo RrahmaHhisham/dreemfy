@@ -109,7 +109,7 @@ function Tab1Content({ onToggleFavorite, favorites }) {
             </div>
             <div className="user">
                 <div className="user-img">
-                  <img src={assets.User} />
+                  <img src={assets.User} alt="user" />
                 </div>
                 <div className="user-stars d-flex gap-1">
                   <p className="m-0 p-0">محمد أحمد</p>

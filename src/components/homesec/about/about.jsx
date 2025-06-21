@@ -19,6 +19,7 @@ function About() {
                     <img
                       src={assets.arrowabout}
                       style={{ width: "35px", height: "44px" }}
+                      alt=""
                     />
                   </div>
                   <p class="card-text">كيفية عمل Dreamfy</p>
@@ -40,7 +41,7 @@ function About() {
               </p>
 
               <div class="card">
-                <img src={assets.Character} />
+                <img src={assets.Character} alt="..." />
                 <div class="card-body">
                   <p class="card-text">
                     حلول ذكية لتحويل أفكارك

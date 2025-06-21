@@ -23,7 +23,7 @@ function Hero() {
                   <div class="card-body p-0">
                     {/* <h5 class="card-title">Special title treatment</h5> */}
                     <p class="card-text">
-                      <img src={assets.chaticon} />
+                      <img src={assets.chaticon} alt="" />
                       تطبيق تمويل موبايل يسمى "Intuitive".
                     </p>
                     <button className="col-12">حلل الفكره باستخدام AI</button>

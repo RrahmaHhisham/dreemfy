@@ -1,3 +1,31 @@
+footer {
+    background-image: url(../../assets/footer.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 10px;
+}
+
+
+
+
+
+.brand {
+    font-size: 48px;
+    font-family: stencil !important;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+
+
+
+
+.text-footer {
+    font-size: 18px;
+}
+
+
+
 footer .container {
     background-color: transparent !important;
     color: #fff !important;

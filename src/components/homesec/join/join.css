@@ -1,33 +1,23 @@
-.side-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.side-card img {
-    width: 100%;
-}
-
-
-.join>.card {
-    border-radius: 12px;
-background: linear-gradient(92deg, #880F68 0.09%, #DF10A7 18.94%, #7A1EBD 99.91%) !important;
-}
-
 .join {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.join .card .card-body {
+.join .card {
+    padding: 0;
+    margin: 80px 0;
+}
+.join .card .card-img-overlay {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+
 }
+
+
+
 .join .card .card-body p:nth-child(1) {
 color: #FFF !important;
 text-align: right;
@@ -35,10 +25,14 @@ font-family: Cairo;
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
-line-height: 31.92px; /* 88.667% */
+line-height: 31.92px; 
+
 }
-.join .card .card-body p:nth-child(2) {
-color: #FFF !important;
+
+
+
+.join .card .card-body .card-text {
+color: #FFF;
 text-align: right;
 font-family: Cairo;
 font-size: 16px;
@@ -46,6 +40,9 @@ font-style: normal;
 font-weight: 400;
 line-height: 26.72px; /* 167% */
 }
+
+
+
 
 .join .card .card-body button {
     display: flex;
@@ -58,4 +55,23 @@ align-self: stretch;
 border-radius: 8px;
 background: #FFF;
 border: none;
+}
+
+
+
+.join .card .card-body .card-img-top {
+    width: 149px;
+height: 49px;
+max-width: 149px;
+}
+
+
+@media (max-width: 770px) {
+  .join>.card {
+   height: 550px !important;
+}
+  .join>.card .card-img {
+   height: 100% !important;
+   object-fit: cover;
+}
 }

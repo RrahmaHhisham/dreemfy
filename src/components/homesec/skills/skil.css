@@ -1,53 +1,58 @@
 .skil {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 
 .skil .card {
-    border-radius: 8px;
-    background: #21242D;
-    color: #fff;
+  border-radius: 8px;
+  background: #21242D;
+  color: #fff;
 }
-
+.skil .card img {
+  height: 100% !important;
+}
 .side-title {
-    color: #EFEAEA;
-text-align: right;
-font-family: Cairo;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: 140%; /* 33.6px */
-}
-.skil .card-body .main-title {
-   color: #EFEAEA;
-text-align: right;
-font-family: Cairo;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: 140%; 
+  color: #EFEAEA;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
 }
 
-.caption {
-    color: #EFEAEA;
-text-align: right;
-font-family: Cairo;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: 140%; /* 33.6px */
+.skil .card-body .main-title {
+  color: #EFEAEA;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  margin: 32px 0;
+}
+
+.skil .caption {
+  color: #EFEAEA;
+  text-align: right;
+  font-family: Cairo;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  margin: 0 0 30px 0 !important;
 }
 
 
 .card-point {
-    position: relative;
-    border-radius: 7px;
-    overflow: hidden;
-    background: #fff;
-    height: 180px !important;
+  position: relative;
+  border-radius: 7px;
+  overflow: hidden;
+  background: #fff;
+  height: 180px !important;
 }
 
 .card-point::before {
@@ -73,7 +78,7 @@ line-height: 140%; /* 33.6px */
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: transparent; 
+  background-color: transparent;
   border-radius: 50%;
   z-index: 1;
 }
@@ -88,21 +93,51 @@ line-height: 140%; /* 33.6px */
   background: linear-gradient(90deg, #9947D5, #C6269B);
   border-radius: 50%;
   z-index: -1;
-  mask: 
-    linear-gradient(#fff 0 0) content-box, 
-    linear-gradient(#fff 0 0); 
-  -webkit-mask: 
-    linear-gradient(#fff 0 0) content-box, 
+  mask:
+    linear-gradient(#fff 0 0) content-box,
     linear-gradient(#fff 0 0);
-  mask-composite: exclude; 
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  mask-composite: exclude;
   -webkit-mask-composite: destination-out;
-  padding: 2px; 
+  padding: 2px;
 }
 
 
 .card-point .point .card-title {
-    background: linear-gradient(90deg, #9947D5 0%, #C6269B 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg, #9947D5 0%, #C6269B 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.skil .start-now {
+  margin-bottom: 62px ;
+}
+
+
+.skil .start-now .btn {
+  display: flex;
+  width: 220px;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background: linear-gradient(280deg, #805AF5 0%, #C02BA3 100%);
+  color: #FFF;
+  font-family: Cairo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 150% */
+}
+
+
+
+
+.content-skil {
+  padding: 21px !important;
 }

@@ -8,6 +8,7 @@
 
 .herofreelance>.card {
     height: 50vh;
+    background-color: transparent !important;
 }
 
 .herofreelance .card img {

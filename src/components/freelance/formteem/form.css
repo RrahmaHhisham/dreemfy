@@ -72,6 +72,14 @@
     border-radius: 100px;
     background: linear-gradient(280deg, #805AF5 0%, #C02BA3 100%);
     color: #FFF;
+font-family: Cairo;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+    color: #FFF;
+    border: none;
+    outline: none;
 }
 
 .form-container-teem .form-content .card form .btn.save:hover {

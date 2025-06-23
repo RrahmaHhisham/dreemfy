@@ -1,0 +1,111 @@
+.more-stories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-stories-title {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.more-stories-title a {
+    display: flex;
+padding: 16px 24px;
+justify-content: center;
+align-items: center;
+border-radius: 100px;
+background: linear-gradient(280deg, #9947D5 0%, #C6269B 100%);
+color: #FFF;
+font-family: Cairo;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+text-decoration: none;
+}
+.more-stories-title p:first-of-type {
+    color: #FFF;
+    font-family: Cairo;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    /* 120% */
+}
+.more-stories-title p.captionmorestory {
+    color: #CAC7C7;
+text-align: right;
+font-family: Cairo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 48px; /* 300% */
+}
+
+.more-stories .more-stories-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 80px 0;
+}
+
+
+.more-stories .more-stories-content .card {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #EAECF0;
+    color: #fff;
+    padding-bottom: 24px;
+}
+
+.more-stories .more-stories-content .card img {
+    height: 174px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.more-stories .more-stories-content .card .card-item {
+    display: flex;
+    align-items: end;
+}
+
+
+.more-stories .more-stories-content .card .card-item .date-card {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+.more-stories .more-stories-content .card .card-item .date-card p:first-of-type {
+    text-align: right;
+    font-family: Cairo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    /* 300% */
+    background: linear-gradient(90deg, #9947D5 0%, #C6269B 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.more-stories .more-stories-content .card .card-item .date-card .date {
+    color: #B6B8BC;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    /* 300% */
+}

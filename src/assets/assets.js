@@ -8,7 +8,7 @@ import categoreyicon6 from "./Categorey-icon6.svg";
 import boutiquehotels from "./hotels.jpg";
 import project from "./projects.jpg";
 import ideas from "./ideas.jpg";
-import about from "./about.png";
+import about from "./about12.jpeg";
 import gameshero from "./herogames.jpg"
 import play from "./play.jpg"
 import ex from "./ex.jpg"
@@ -23,7 +23,7 @@ import appshero from "./appshero.jpg"
 import code from "./code.jpg"
 import coding from "./coding.jpg"
 import arrowabout from "./solar_play-bold.svg"
-import Character  from "./Character.png";
+import Character from "./Character.png";
 import wallet from "./Wallet.svg"
 import start from "./Start.svg"
 import max from "./Maximize.svg"
@@ -42,6 +42,9 @@ import User from "./user.jpg"
 import Star from "./star.svg"
 import LineStar from "./linestar.svg"
 import eye from "./eye.svg"
+import projectimg from "./project.jpg"
+import story from "./story.jpg"
+import bgImage from "./bgcard.jpeg"
 const assets = {
   chaticon,
   categoreyicon,
@@ -58,15 +61,15 @@ const assets = {
   play,
   ex,
   ai,
-projectai,
-aipoints,
-fintechhero,
-herohotel,
-hotel,
-house,
-appshero,
-code,
-coding,
+  projectai,
+  aipoints,
+  fintechhero,
+  herohotel,
+  hotel,
+  house,
+  appshero,
+  code,
+  coding,
   arrowabout,
   Character,
   wallet,
@@ -87,6 +90,9 @@ coding,
   Star,
   LineStar,
   eye,
+  projectimg,
+  story,
+
 };
 
 export default assets;

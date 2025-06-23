@@ -10,6 +10,8 @@
     background: #181D2A;
     color: #fff;
     border: none;
+    margin: 80px 0;
+    padding: 80px;
 }
 
 .accordion-button::after {
@@ -92,11 +94,64 @@
 
 .commenask .card-header button {
     display: flex;
-width: 231px;
-padding: 16px 24px;
-justify-content: center;
-align-items: center;
-border-radius: 100px;
-background: linear-gradient(280deg, #9947D5 0%, #C6269B 100%);
-color: #fff;
+    width: 231px;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: linear-gradient(280deg, #9947D5 0%, #C6269B 100%);
+    color: #fff;
+}
+
+
+.accordion-item>.accordion-header .accordion-button {
+    color: #FFF;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -0.72px;
+    padding: 26px 24px;
+}
+
+
+.asks .accordion-body p {
+    color: #FFF;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%;
+}
+
+
+
+@media (max-width: 770px) {
+
+    .commenask>.card {
+        border-radius: 28px;
+        background: #181D2A;
+        color: #fff;
+        border: none;
+        margin: 80px 0;
+        padding: 0px;
+    }
+
+
+    .accordion-item>.accordion-header .accordion-button {
+        color: #FFF;
+        text-align: right;
+        font-family: Cairo;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        /* 36px */
+        letter-spacing: -0.72px;
+        padding: 10px 0;
+    }
+
 }

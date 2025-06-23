@@ -28,6 +28,35 @@ import MainPage from './features/freelance/mainpage.jsx';
 import FormFreelance from './features/freelance/formfreelance.jsx';
 import FormTeemFree from './features/freelance/formteemfree.jsx';
 import DetailsCards from './components/freelance/detailscard/detailscards.jsx';
+
+
+
+
+
+
+
+
+
+
+
+
+import Client from './layouts/clientlayout.jsx';
+import MainPageClient from './features/Client/mainpageclient.jsx';
+import FormClient from './components/client/formclient/formclient.jsx';
+import AddProject from './components/client/addproject/addproject.jsx';
+
+
+
+
+
+
+
+
+
+
+
+
+
 function App() {
   return (
     <BrowserRouter>
@@ -58,6 +87,24 @@ function App() {
 
           <Route path="FormFreelance" element={<FormFreelance />} />
           <Route path="FormTeemFree" element={<FormTeemFree />} />
+          <Route path="DetailsCards" element={<DetailsCards />} />
+        </Route>
+
+
+
+
+
+
+
+
+
+        <Route path="/client" element={<Client />}>
+          <Route index element={<MainPageClient />} />
+          <Route path="form" element={<FormClient />} />
+          <Route path="pass" element={<AddProject />} />
+
+
+
           <Route path="DetailsCards" element={<DetailsCards />} />
         </Route>
       </Routes>

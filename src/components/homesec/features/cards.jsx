@@ -7,7 +7,7 @@ function Cards() {
       title: "فنادق بوتيكية",
       text: `نقدم لكم مشروعًا فريدًا يمزج بين عبق التاريخ وفرص الاستثمار المعاصر:
 “تحويل المنازل الدمشقية القديمة إلى فنادق بوتيكية راقية"`,
-      image: assets.categoreyicon,
+      image: assets.categoreyicon3,
     },
     {
       title: "التطبيقات والمنصات الرقمية",
@@ -17,12 +17,12 @@ function Cards() {
     {
       title: " الذكاء الاصطناعي و Web3",
       text: "استفد من تقنيات الذكاء الاصطناعي والبلوك تشين (Web3) لإنشاء حلول مستقبلية تعزز من كفاءة عملياتك، توفر لك تحليلات دقيقة، وتفتح لك أبوابًا جديدة في عالم الأعمال الرقمية.",
-      image: assets.categoreyicon3,
+      image: assets.categoreyicon,
     },
     {
       title: "التقنيات والخدمات المالية",
       text: "نطوّر لك حلول الدفع الإلكتروني، المحافظ الرقمية، والخدمات المالية التي تجعل المعاملات أسهل وأكثر أمانًا، مع التركيز على تجربة المستخدم وسهولة الوصول إلى خدماتك المالية",
-      image: assets.categoreyicon4,
+      image: assets.categoreyicon6,
     },
     {
       title: "الألعاب والتجارب التفاعلية",
@@ -32,13 +32,13 @@ function Cards() {
     {
       title: "المشاريع التقنية والتسويقية ",
       text: " نجمع بين الخبرة التقنية والاستراتيجيات التسويقية لمساعدتك في إطلاق مشاريعك الرقمية بنجاح، من بناء الهوية الرقمية إلى تطوير الحملات التسويقية التي تضمن لك الوصول إلى جمهورك .",
-      image: assets.categoreyicon6,
+      image: assets.categoreyicon4,
     },
   ];
 
   return (
     <div className="fetatures-cards row m-0 p-0">
-      <div className="cards col-md-10 d-flex flex-wrap gap-3">
+      <div className="cards col-md-12 d-flex flex-wrap gap-3">
         {cardsData.map((card, index) => (
           <div className="card col-md-3" key={index}>
             <div className="card-body">

@@ -99,6 +99,7 @@ align-self: stretch;
 border-radius: 100px;
 background: linear-gradient(280deg, #805AF5 0%, #C02BA3 100%);
 color: #FFF;
+font-size: 16px;
 } 
 
 .card-add-fav .save {
@@ -115,7 +116,7 @@ background: linear-gradient(180deg, #9947D5 0%, #C6269B 100%);
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-font-size: 24px;
+font-size: 16px;
 }
 
 .details-cards .user {
@@ -131,7 +132,6 @@ height: 64px;
 border-radius: 64px;
 object-fit: contain;
 border: 1px solid #C6269B;
-/* background:  lightgray 0.765px -0.609px / 100% 149.688% no-repeat, #D9D9D9; */
 }
 .user-stars {
     display: flex;

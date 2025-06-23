@@ -73,7 +73,7 @@ function Asks() {
   ];
   return (
     <div className="commenask row m-0 p-0">
-      <div className="card text-cente col-md-11 col-11 d-flex flex-row align-items-center justify-content-center flex-wrap p-0">
+      <div className="card text-cente col-md-11 col-11 d-flex flex-row align-items-center justify-content-center flex-wrap ">
         <div className="card-header col-md-6">
           <p className="card-title">الأسئلة الشائعة</p>
           <p className="card-text d-flex justify-content-center">
@@ -97,7 +97,7 @@ function Asks() {
           >
             {accordionItems.map((item, index) => (
               <div className="accordion-item" key={item.id}>
-                <h2 className="accordion-header">
+                <p className="accordion-header">
                   <button
                     className={`accordion-button ${
                       activeIndex === index ? "" : "collapsed"
@@ -112,7 +112,7 @@ function Asks() {
                       {activeIndex === index ? <MinusIcon /> : <PlusIcon />}
                     </span>
                   </button>
-                </h2>
+                </p>
                 <div
                   id={item.id}
                   className={`accordion-collapse collapse ${
@@ -123,10 +123,9 @@ function Asks() {
                   }}
                   aria-labelledby={`heading${index + 1}`}
                 >
-                  <div
-                    className="accordion-body"
-                    dangerouslySetInnerHTML={{ __html: item.answer }}
-                  />
+                  <div className="accordion-body px-0">
+                    <p dangerouslySetInnerHTML={{ __html: item.answer }} />
+                  </div>
                 </div>
               </div>
             ))}

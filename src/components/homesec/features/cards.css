@@ -12,12 +12,12 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 32px;
-    margin: 20px 0;
+    margin: 80px 0;
 }
 
 .fetatures-cards .cards .card {
     display: flex;
-    width: 383px;
+    width: 330px;
     height: 300px;
     padding: 48px 32px;
     flex-direction: column;
@@ -27,6 +27,7 @@
     border-radius: 24px;
     background: #21242D;
     color: #fff;
+    margin: 32px 65px;
 }
 
 @media screen and (max-width: 768px) {

@@ -7,23 +7,13 @@ function About() {
       <div className="content-about col-md-11 col-11">
         <div className="about-left col-lg-8 col-12">
           <div class="card">
-            <div class="card-body">
-              <p class="card-subtitle mb-2 text-body-secondary">
+            <div class="card-body p-0">
+              <p class="card-caption mb-2 text-body-secondary">
                 من خلال Dreamfy، نحول أفكارك إلى مشاريع ناجحة باستخدام حلول
                 مبتكرة وبدون أي تكاليف مبدئية.
               </p>
               <div class="card text-bg-dark">
                 <img src={assets.about} class="card-img" alt="..." />
-                <div class="card-img-overlay  d-flex justify-content-center align-items-center flex-column">
-                  <div className="arrow">
-                    <img
-                      src={assets.arrowabout}
-                      style={{ width: "35px", height: "44px" }}
-                      alt=""
-                    />
-                  </div>
-                  <p class="card-text">كيفية عمل Dreamfy</p>
-                </div>
               </div>
             </div>
           </div>

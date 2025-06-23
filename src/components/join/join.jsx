@@ -130,11 +130,6 @@ function Join() {
   const [selectedRole, setSelectedRole] = useState("");
   const navigate = useNavigate();
 
-  //   const roles = [
-  //     { label: "الانضمام كمستقل", value: "freelancer" },
-  //     { label: "الانضمام كصاحب فكرة", value: "owner" },
-  //     { label: "الانضمام كمستثمر", value: "investor" },
-  //   ];
   const roles = [
     {
       label: "الانضمام كمستقل",
@@ -206,13 +201,21 @@ function Join() {
     setSelectedRole(label);
   };
 
-  const handleJoin = () => {
-    if (selectedRole) {
-      navigate("/freelance");
-    } else {
-      alert("يرجى اختيار أحد الخيارات أولاً.");
-    }
-  };
+ const handleJoin = () => {
+  if (!selectedRole) {
+    alert("يرجى اختيار أحد الخيارات أولاً.");
+    return;
+  }
+
+  if (selectedRole === "الانضمام كمستقل") {
+    navigate("/freelance");
+  } else if (selectedRole === "الانضمام كصاحب فكرة") {
+    navigate("/client");
+  } else if (selectedRole === "الانضمام كمستثمر") {
+    navigate("/investor"); // أو المسار المناسب لصفحة المستثمر
+  }
+};
+
 
   return (
     <div className="joinus row m-0 p-0">

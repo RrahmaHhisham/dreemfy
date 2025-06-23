@@ -1,26 +1,47 @@
 .hero {
-    min-height: 80vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background-color: #BC2EA7 !important; */
+}
+
+
+.hero >.card {
+    margin-top: 80px;
+}
+.hero >.card>img {
+    height: 100vh !important;
+    object-fit: cover !important;
+    /* background-color: #D0208F !important; */
 }
 
 .hero .card-img-overlay {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
 .hero .card-title {
-    text-align: center;
-    font-family: Cairo;
-    font-size: 72px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 109px;
-    letter-spacing: -1.44px;
-    gap: 10px;
+text-align: center;
+font-family: Cairo;
+font-size: 72px;
+font-style: normal;
+font-weight: 700;
+line-height: 109px; /* 151.389% */
+letter-spacing: -1.44px;
+
+}
+.hero .card-text {
+color: #B6B8BC;
+text-align: center;
+font-family: Cairo;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 140% */
+margin-bottom: 48px;
 
 }
 
@@ -29,40 +50,67 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-left: 10px;
 }
 
 
-.hero button {
+.hero a {
     display: flex;
     padding: 10px 0;
     justify-content: center;
     align-items: flex-start;
     align-self: stretch;
     border: none;
-    color: #fff;
-    background: linear-gradient(180deg, #BC2EA7 0%, #805AF5 100%);
+    border-radius: 8px;
+background: linear-gradient(90deg, #805AF5 0%, #D0208F 100%);
+    text-decoration: none;
+    color: #FFF;
+text-align: center;
+text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+font-family: Cairo;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 50px; /* 250% */
+letter-spacing: 0.5px;
 }
 
 
-.hero .card .card {
+.hero .card .card-ai {
     color: #fff;
     border-radius: 12px;
     background: #21242D;
+    padding: 24px;
 }
 
 
 .hero .card .card .card-body {
     border-radius: 12px;
-    background: #16181E;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
 }
 
 
 .hero .card .card .card-body .card-text {
+    background: #16181E;
     display: flex;
     justify-content: start;
     align-items: start;
     height: 100px;
+    border-radius: 12px;
     gap: 10px;
+    color: #DFE0E4;
+text-align: right;
+font-family: Cairo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; 
+width: 100%;
+margin-bottom: 40px;
+padding: 27px 17px;
 }
 
 @media (max-width: 1024px) {

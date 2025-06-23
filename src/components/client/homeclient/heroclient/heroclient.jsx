@@ -1,28 +1,23 @@
+
 import React, { useEffect, useState } from "react";
-import assets from "../../../assets/assets";
-import "./styles.css";
+import assets from "../../../../assets/assets";
+import "./hero.css";
 import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+function HeroClient() {
+  const location = useLocation();
+const [isProfileCompleted, setIsProfileCompleted] = useState(false);
+const [isProjectSummaryCompleted, setIsProjectSummaryCompleted] = useState(false);
 
-function HeroFreelance() {
-  const [isProfileCompleted, setIsProfileCompleted] = useState(false);
+useEffect(() => {
+  const profileCompleted = localStorage.getItem("clientProfileCompleted");
+  const projectCompleted = localStorage.getItem("projectSummaryCompleted");
 
-  useEffect(() => {
-    const isCompleted =
-      localStorage.getItem("freelancerProfileCompleted") === "true";
-    setIsProfileCompleted(isCompleted);
-  }, []);
+  setIsProfileCompleted(profileCompleted === "true");
+  setIsProjectSummaryCompleted(projectCompleted === "true");
+}, [location]);
 
-  const [isTeamProfileCompleted, setIsTeamProfileCompleted] = useState(false);
 
-  useEffect(() => {
-    const isCompleted =
-      localStorage.getItem("freelancerProfileCompleted") === "true";
-    const isTeamCompleted =
-      localStorage.getItem("teamProfileCompleted") === "true";
-
-    setIsProfileCompleted(isCompleted);
-    setIsTeamProfileCompleted(isTeamCompleted);
-  }, []);
 
   return (
     <div className="herofreelance row mb-4 mx-0 p-0">
@@ -37,9 +32,9 @@ function HeroFreelance() {
       </div>
 
       <div className="info-data col-12">
-        {!isTeamProfileCompleted && (
+        {!isProjectSummaryCompleted  && (
           <div className="card col-12 col-md-10 col-lg-5 col-xl-4">
-            <div className="card-body d-flex align-items-center gap-3 flex-row justify-content-center col-12 col-md-7 col-lg-6 col-xl-6">
+            <div className="card-body d-flex align-items-center gap-3 flex-row justify-content-center col-12 col-md-7 col-lg-7 col-xl-8">
               <div>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -68,23 +63,22 @@ function HeroFreelance() {
                 </svg>
               </div>
               <div>
-                <p className="card-title">إنشاء فريق تطوير</p>
+                <p className="card-title">انشر ملخص مشروع</p>
                 <p className="card-subtitle mb-2">
-                  قم بانشاء فريق التطوير الخاص بك
+                 احصل على عروض مخصصة تناسب احتياجاتك.
                 </p>
               </div>
             </div>
-            <div className="card-body d-flex align-items-center gap-3 flex-row justify-content-center col-12 col-md-7 col-lg-6 col-xl-6">
-              <Link to="/freelance/FormTeemFree">استكمال معلومات الفريق</Link>
+            <div className="card-body d-flex align-items-center gap-3 flex-row justify-content-center col-12 col-md-7 col-lg-5 col-xl-4">
+              <Link to="/client/pass">ابدا الان</Link>
             </div>
           </div>
         )}
-
         {/* كرت الملف الشخصي */}
         {!isProfileCompleted && (
           <div className="card col-12 col-md-10 col-lg-4">
             <>
-              <div className="card-body d-flex align-items-center gap-3 flex-row justify-content-center col-12 col-md-7 col-lg-6 col-xl-6">
+              <div className="card-body d-flex align-items-center gap-3 flex-row justify-content-center col-12 col-md-7 col-lg-7 col-xl-8">
                 <div>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -136,13 +130,13 @@ function HeroFreelance() {
                 <div>
                   <p className="card-title">استكمال الملف الشخصي</p>
                   <p className="card-subtitle mb-2">
-                    اكمل الملف الشخصي لسهولة الاستخدام
+                    احصل على عروض مخصصة تناسب احتياجاتك.
                   </p>
                 </div>
               </div>
 
-              <div className="card-body d-flex align-items-center gap-3 flex-row justify-content-center col-12 col-md-7 col-lg-6 col-xl-6">
-                <Link to="/freelance/FormFreelance">استكمال الملف الشخصي</Link>
+              <div className="card-body d-flex align-items-center gap-3 flex-row justify-content-center col-12 col-md-7 col-lg-5 col-xl-4">
+                <Link to="/client/form">ابدا الان</Link>
               </div>
             </>
           </div>
@@ -152,4 +146,4 @@ function HeroFreelance() {
   );
 }
 
-export default HeroFreelance;
+export default HeroClient;

@@ -1,0 +1,41 @@
+.type-work .card-work {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+
+/* .type-work .card-work .card-work-item {
+    display: flex;
+    flex-direction: row;
+    padding: 32px 24px;
+align-items: center;
+gap: 82px;
+border-radius: 12px;
+border: 1px solid #C4C4C4;
+margin: 24px;
+} */
+
+
+.card-work-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px; /* أو حسب رغبتك */
+  border: 1px solid #ccc;
+  padding: 10px;
+  position: relative;
+}
+
+.card-work-item input[type="radio"] {
+  align-self: flex-end; /* لجعل الراديو في الزاوية السفلية اليمنى */
+}
+
+
+
+.type-work .cards-join .card {
+    border-radius: 12px;
+border: 1px solid #C4C4C4;
+}

@@ -13,9 +13,9 @@ function Footer() {
           {/* <!-- Grid row --> */}
           <div class="row mt-3">
             {/* <!-- Grid column --> */}
-            <div class="col-md-3 mt-0 col-lg-4 col-xl-3 mx-auto mb-4 d-flex align-items-end flex-column text-end">
-              <p class="text-uppercase fw-bold mb-4 text-end w-100">DREAMFY</p>
-              <p>
+            <div class="col-md-3 mt-0 col-lg-4 col-xl-5 mx-auto mb-4 d-flex align-items-end flex-column text-end">
+              <p class="text-uppercase brand text-end w-100">DREAMFY</p>
+              <p class="text-footer">
                 Dreamfy هي منصة مبتكرة تهدف إلى مساعدة أصحاب الأفكار التقنية في
                 تحويل أفكارهم إلى مشاريع ناجحة دون أي تكاليف مسبقة. تربط المنصة
                 بين أصحاب الأفكار الإبداعية وفرق التطوير، مع ضمان التعاون الشفاف
